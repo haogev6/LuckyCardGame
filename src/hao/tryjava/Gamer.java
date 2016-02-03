@@ -47,7 +47,7 @@ public class Gamer {
 	}
 	
 	/**
-	 * @return 如果可能赢，返回true继续，如果可能输，则要求换牌
+	 * @return 濡傛灉鍙兘璧紝杩斿洖true缁х画锛屽鏋滃彲鑳借緭锛屽垯瑕佹眰鎹㈢墝
 	 */
 	public boolean isContinue() {
 		if (maxCardNumber - currentCardNumber < membersCount - 1) {
